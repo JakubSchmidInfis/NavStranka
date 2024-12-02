@@ -13,7 +13,7 @@ nav{
 .navUl{
     display: flex;
     justify-content: right;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 .navLi{
     margin-left: 20px;
@@ -31,6 +31,11 @@ nav{
     text-decoration: underline;
 }
 
+
+
+
+
+
 /*Main*/
 main div{
     display: flex;
@@ -46,11 +51,13 @@ main div div{
     flex-direction: column;
     flex-wrap: wrap;
     width: 350px;
+    font-size: 20px;
 }
 main div img{
     border-radius: 360px;
     margin-left: 300px;
     margin-top: 80px;
+    border: solid black 5px;
 }
 main p{
     padding: 20px;
