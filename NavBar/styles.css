@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Nav*/
+
+nav{
+    background-color: black;
+    padding: 5px;
+}
+.navUl{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+.navLi{
+    margin-left: 20px;
+    display: inline;
+    font-size: 25px;
+}
+.navA{
+    text-decoration: none;
+    color: white;
+}
+.navA:visited{
+    color: white;
+}
+.navA:hover{
+    text-decoration: underline;
+}
+
+/*Main*/
+main{
+    display: flex;
+    justify-content: center;
+}
+main p{
+    text-align: center;
+    width: 500px;
+}
+
+
+/*Footer*/
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: right;
+}
