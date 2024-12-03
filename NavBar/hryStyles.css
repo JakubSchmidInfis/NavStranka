@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+}
+h1{
+    font-family: Exo;
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+nav{
+    background-color: rgb(33, 33, 33);
+    padding: 20px;
+}
+.navUl{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+}
+.navLi{
+    margin-left: 20px;
+    display: inline;
+    font-size: 25px;
+}
+.navA{
+    text-decoration: none;
+    color: white;
+}
+.navA:visited{
+    color: white;
+}
+.navA:hover{
+    text-decoration: underline;
+}
+
+
+
+.color{
+    background-color: #0079ca;  
+    height: 20px;
+}
+
+main{
+    
+    background-color: rgb(60, 60, 60);
+}
+.games ul{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    list-style-type: none;
+    color: white;
+    font-size: 30px;
+    font-family: Exo;
+    text-align: center;
+}
+.games a{
+    text-decoration: none;
+    color: white;
+}
+.games img{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+}
+.screenshots h1
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.screenshots{
+    text-align: center;
+}
+.screenshots a{
+    text-decoration: none;
+    color: white;
+}
+.screenshots p{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.screenshots img{
+    height: 200px;
+}
+
+/*Footer*/
+footer{
+    color: white;
+    background-color: rgb(33, 33, 33);
+    padding: 10px;
+    text-align: right;
+}
