@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -46,11 +48,13 @@ main h1{
     margin-top: 50px;
     margin-left: 15px;
     padding: 5px;
+    font-family: Bebas Neue;
+    font-size: 60px;
 }
 main div div{
     flex-direction: column;
     flex-wrap: wrap;
-    width: 350px;
+    width: 370px;
     font-size: 20px;
 }
 main div img{
@@ -61,6 +65,8 @@ main div img{
 }
 main p{
     padding: 20px;
+    font-size: 40px;
+    font-family: DM Serif Display;
 }
 
 /*Footer*/
