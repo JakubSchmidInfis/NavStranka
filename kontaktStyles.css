@@ -172,7 +172,7 @@ footer{
 
 /*------------------IPADDDDDDDDDDDDDDD----------------------*/
 
-@media (max-width: 769px){
+@media (min-width: 377px) and (max-width: 769px){
 
 
     *{
